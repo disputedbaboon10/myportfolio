@@ -557,15 +557,13 @@ form {
   border-radius: 5px;
 }
 
-/* h5 {
+h5 {
   color: var(--nav-hover-color);
-  flex-basis: 50%;
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 3rem;
-  margin: 0px;
   text-transform: uppercase;
-} */
+}
 
 
 label,
