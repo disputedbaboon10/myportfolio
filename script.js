@@ -56,6 +56,7 @@ var swiper0 = new Swiper(`.mySwiper0`, {
   direction: "vertical",
   slidesPerView: 1,
   spaceBetween: 0,
+  spped: 100,
   loop: true,
   mousewheel: true,
   mousewheel: {
