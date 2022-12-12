@@ -22,7 +22,7 @@
       if (x.innerHTML === "LIGHT") {
         x.innerHTML = "DARK";
       } else {
-        x.innerHTML = "DARK";
+        x.innerHTML = "LIGHT";
       }
     }
   </script>
@@ -261,17 +261,25 @@
 
   </main>
 
-  <main id="about" style="display:none; margin-left: 10rem;">
-    <div style="flex: auto">
-      <div style="margin-top: 5rem; margin-bottom: 5rem;">
-        <p1>ABOUT ME</p1>
+  <div id="about" style="display: none;">
+    <div style="justify-content: left;">
+      <div class="flex-container" style="flex-direction: row;">
+        <div class="flex-item header">
+          <p1>ABOUT ME</p1>
+          <p style="padding-top: 3rem;">I am a student at Brown studying computer science. While I am focusing in AI, I enjoy virtual and physical design. I am interested in the ways that form follows function in design.
+            <br><br>As you may be able to tell with this portfolio website, I strive for simple, unqiue and aesthetic designs that allow the user for seamless and intuitive design interactions. I learned a lot
+            about design and website implementation during this course and I hope to continue my work in this field going forward!</p>
+        </div>
+        <div class="flex-item image">
+          <img style="margin: 3rem;" src="images/profile.png" alt="Image" width="300rem">
+        </div>
       </div>
-      <p>I am going to keep this blank until after the submission because this is supposed to be anonymous</p>
     </div>
-  </main>
+    
+  </div>
 
   <div id="touch" style="display:none">
-    <div style="justify-content: left; margin-left: 10rem;">
+    <div style="justify-content: left">
       <form>
         <div style="margin-bottom: 1rem;"><p1 >CONTACT ME</p1></div>
         
